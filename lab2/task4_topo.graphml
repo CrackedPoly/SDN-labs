@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+     http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph id="G" edgedefault="undirected">
+    <node id="s10"/>
+    <node id="s11"/>
+    <node id="s12"/>
+    <node id="s13"/>
+    <node id="s14"/>
+    <node id="h11"/>
+    <node id="h12"/>
+    <node id="s20"/>
+    <node id="s21"/>
+    <node id="s22"/>
+    <node id="s23"/>
+    <node id="s24"/>
+    <node id="h21"/>
+    <node id="h22"/>
+    <edge source="h12" target="s14"/>
+    <edge source="h11" target="s13"/>
+    <edge source="s11" target="s12"/>
+    <edge source="s11" target="s13"/>
+    <edge source="s11" target="s14"/>
+    <edge source="s12" target="s13"/>
+    <edge source="s12" target="s14"/>
+    <edge source="s10" target="s11"/>
+    <edge source="s10" target="s22"/>
+    <edge source="h22" target="s24"/>
+    <edge source="h21" target="s23"/>
+    <edge source="s21" target="s22"/>
+    <edge source="s21" target="s23"/>
+    <edge source="s21" target="s24"/>
+    <edge source="s22" target="s23"/>
+    <edge source="s22" target="s24"/>
+    <edge source="s20" target="s21"/>
+    <edge source="s20" target="s12"/>
+  </graph>
+</graphml>
